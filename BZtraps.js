@@ -1,3 +1,5 @@
+// BZtraps Magma Plugin v 0.1 by BadZombi
+
 function On_EntityHurt(he) {
     try{
 	    if(he.Attacker == he.Entity.Owner){
