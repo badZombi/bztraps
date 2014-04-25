@@ -40,6 +40,7 @@ function On_DoorUse(Player, de) {
     		Player.Notice("Aaaah! Its a Trap!");
     		
     		trapped.Destroy();
+    		//trapped.X = trapped.X + 10;
     		DataStore.Remove("BZtraps", de.Entity.InstanceID);
 			DataStore.Save();
     	}
